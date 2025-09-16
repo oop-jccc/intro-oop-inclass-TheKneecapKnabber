@@ -23,7 +23,7 @@ public static class Program
     {
         foreach (var bird in birds)
         {
-            bird.Fly();
+            bird.Move();
             bird.LayEgg();
         }
     }
